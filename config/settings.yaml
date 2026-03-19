@@ -1,0 +1,12 @@
+# Configuration for Super News Aggregator
+
+# Database
+DATABASE_URL=sqlite:///news.db
+
+# Feed settings
+FEED_UPDATE_INTERVAL=3600
+MAX_FEEDS=100
+
+# API
+API_PORT=8080
+API_HOST=0.0.0.0
